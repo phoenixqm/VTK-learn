@@ -44,9 +44,9 @@ int main (int argc, char *argv[])
     {
     resolution = 20;
     }
-  if (resolution < 4)
+  if (resolution < 8)
     {
-    resolution = 4;
+    resolution = 8;
     }
   std::cout <<"Resolution is: " << resolution << std::endl;
   vtkSmartPointer<vtkSphereSource> sphere =
